@@ -271,12 +271,17 @@
   'unit … implementation … end':
     'prefix': 'unit'
     'body': """
+      {
+        ${1}
+        @author(Name <x@y.at>)
+        @abstract(a short description)
+        @created(2017-03-06)
+        a large description
+        @lastmod(2017-03-06)
+      }
       UNIT ${1:unit_name};
 
       INTERFACE
-
-      uses
-      \tSysUtils${2:, Classes};
 
       IMPLEMENTATION
 
@@ -284,6 +289,24 @@
 
       END.
     """
+'program … end':
+  'prefix': 'program'
+  'body': """
+    {
+      ${1}
+      @author(Name <x@y.at>)
+      @abstract(a short description)
+      @created(2017-03-06)
+      a large description
+      @lastmod(2017-03-06)
+    }
+    PROGRAM ${1:program_name};
+
+    $0
+
+    BEGIN
+    END.
+  """
   'while statement':
     'prefix': 'whileb'
     'body': """
