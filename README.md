@@ -1,10 +1,17 @@
+# Pascal language support in Atom (HGB Style Guidlines)
+
+Forked from the original implementation from Alessandro Fragnani
+
+Original README below
+
+
 # Pascal language support in Atom
 
 This extension adds support to Pascal language in Atom. It works with Delphi and FreePascal/Lazarus, and supports:
 
 * Syntax Highlighting
 * Snippets
-* File Symbols 
+* File Symbols
 
 # Usage
 

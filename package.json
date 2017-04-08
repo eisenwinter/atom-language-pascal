@@ -1,8 +1,8 @@
 {
-  "name": "language-pascal",
-  "version": "0.20.2",
-  "description": "Pascal language support in Atom",
-  "repository": "https://github.com/alefragnani/atom-language-pascal",
+  "name": "language-pascal-hgb",
+  "version": "0.10.1a",
+  "description": "HBG - Pascal language support in Atom",
+  "repository": "https://github.com/eisenwinter/atom-language-pascal-hgb",
   "license": "MIT",
   "engines": {
     "atom": ">0.50.0"

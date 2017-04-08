@@ -13,7 +13,7 @@
 'name': 'Pascal'
 'patterns': [
   {
-    'match': '\\b(?i:(absolute|abstract|all|and|and_then|array|as|asm|attribute|begin|bindable|case|class|const|contains|default|div|do|do|else|end|except|export|exports|external|far|file|finalization|finally|for|forward|generic|goto|if|implementation|implements|import|in|index|inherited|initialization|interface|interrupt|is|label|library|mod|module|name|near|nil|not|object|of|only|operator|or|or_else|otherwise|override|package|packed|pow|private|program|property|protected|public|published|qualified|raise|read|readln|record|repeat|resident|requires|resourcestring|restricted|segment|set|shl|shr|specialize|stored|then|threadvar|to|try|type|unit|until|uses|value|var|view|virtual|dynamic|overload|reintroduce|while|with|write|writeln|xor))\\b'
+    'match': '\\b(?i:(ABSOLUTE|ABSTRACT|ALL|AND|AND_THEN|ARRAY|AS|ASM|ATTRIBUTE|BEGIN|BINDABLE|CASE|CLASS|CONST|CONTAINS|DEFAULT|DIV|DO|DO|ELSE|END|EXCEPT|EXPORT|EXPORTS|EXTERNAL|FAR|FILE|FINALIZATION|FINALLY|FOR|FORWARD|GENERIC|GOTO|IF|IMPLEMENTATION|IMPLEMENTS|IMPORT|IN|INDEX|INHERITED|INITIALIZATION|INTERFACE|INTERRUPT|IS|LABEL|LIBRARY|MOD|MODULE|NAME|NEAR|NIL|NOT|OBJECT|OF|ONLY|OPERATOR|OR|OR_ELSE|OTHERWISE|OVERRIDE|PACKAGE|PACKED|POW|PRIVATE|PROGRAM|PROPERTY|PROTECTED|PUBLIC|PUBLISHED|QUALIFIED|RAISE|READ|READLN|RECORD|REPEAT|RESIDENT|REQUIRES|RESOURCESTRING|RESTRICTED|SEGMENT|SET|SHL|SHR|SPECIALIZE|STORED|THEN|THREADVAR|TO|TRY|TYPE|UNIT|UNTIL|USES|VALUE|VAR|VIEW|VIRTUAL|DYNAMIC|OVERLOAD|REINTRODUCE|WHILE|WITH|WRITE|WRITELN|XOR))\\b'
     'name': 'keyword.control.pascal'
   }
   {
@@ -22,7 +22,7 @@
         'name': 'storage.type.prototype.pascal'
       '2':
         'name': 'entity.name.function.prototype.pascal'
-    'match': '\\b(?i:(function|procedure|constructor|destructor))\\b\\s+(\\w+(\\.\\w+)?)(\\(.*?\\))?;\\s*(?=(?i:attribute|forward|external))'
+    'match': '\\b(?i:(FUNCTION|PROCEDURE|CONSTRUCTOR|DESTRUCTOR))\\b\\s+(\\w+(\\.\\w+)?)(\\(.*?\\))?;\\s*(?=(?i:ATTRIBUTE|FORWARD|EXTERNAL))'
     'name': 'meta.function.prototype.pascal'
   }
   {
@@ -31,7 +31,7 @@
         'name': 'storage.type.function.pascal'
       '2':
         'name': 'entity.name.function.pascal'
-    'match': '\\b(?i:(function|procedure|constructor|destructor))\\b\\s+(\\w+(\\.\\w+)?)'
+    'match': '\\b(?i:(FUNCTION|PROCEDURE|CONSTRUCTOR|DESTRUCTOR))\\b\\s+(\\w+(\\.\\w+)?)'
     'name': 'meta.function.pascal'
   }
   {
