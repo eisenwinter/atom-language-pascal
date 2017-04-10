@@ -197,7 +197,7 @@
   'procedure':
     'prefix': 'procedure'
     'body': """
-      PROCEDURE ${1:MyProcedure}(${2:params};
+      PROCEDURE ${1:MyProcedure}(${2:params});
       BEGIN
       \t$0
       END; (* /${1} *)
@@ -269,7 +269,7 @@
     'prefix': 'VAR'
     'body': '${1:variable}: ${2:type};$0'
   'unit … implementation … end':
-    'prefix': 'unit'
+    'prefix': 'unitb'
     'body': """
       {
         ${1}
@@ -289,24 +289,24 @@
 
       END.
     """
-'program … end':
-  'prefix': 'program'
-  'body': """
-    {
-      ${1}
-      @author(Name <x@y.at>)
-      @abstract(a short description)
-      @created(2017-03-06)
-      a large description
-      @lastmod(2017-03-06)
-    }
-    PROGRAM ${1:program_name};
+  'program … end':
+    'prefix': 'programb'
+    'body': """
+      {
+        ${1}
+        @author(Name <x@y.at>)
+        @abstract(a short description)
+        @created(2017-03-06)
+        a large description
+        @lastmod(2017-03-06)
+      }
+      PROGRAM ${1:program_name};
 
-    $0
+      $0
 
-    BEGIN
-    END.
-  """
+      BEGIN
+      END.
+    """
   'while statement':
     'prefix': 'whileb'
     'body': """
@@ -328,4 +328,12 @@
     'body': """
       WHILE ${1:statement} DO
       \t$0;
+    """
+  'pointer to record':
+    'prefix': 'ptrrec'
+    'body': """
+      ${1:RecordName}Ptr = ^{1}
+      {1} = RECORD
+        \t$0;
+      END;
     """

@@ -1,6 +1,6 @@
 {
   "name": "language-pascal-hgb",
-  "version": "0.10.1a",
+  "version": "0.10.2",
   "description": "HBG - Pascal language support in Atom",
   "repository": "https://github.com/eisenwinter/atom-language-pascal-hgb",
   "license": "MIT",
