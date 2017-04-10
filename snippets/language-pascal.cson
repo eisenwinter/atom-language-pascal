@@ -332,8 +332,8 @@
   'pointer to record':
     'prefix': 'ptrrec'
     'body': """
-      ${1:RecordName}Ptr = ^{1}
-      {1} = RECORD
+      ${1:RecordName}Ptr = ^${1}
+      ${1} = RECORD
         \t$0;
       END;
     """
