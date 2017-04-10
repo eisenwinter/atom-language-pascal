@@ -1,6 +1,6 @@
 # Pascal language support in Atom (HGB Style Guidlines)
 
-Forked from the original implementation from > _Originally [converted](https://github.com/alefragnani/atom-language-pascal)Alessandro Fragnani._
+Forked from the original implementation from [Alessandro Fragnani](https://github.com/alefragnani/atom-language-pascal)
 
 This forks purpose is mainly to fit the style guidlines.
 
@@ -88,4 +88,4 @@ Navigate to any method inside Pascal files:
 
 
 
-[MIT](LICENSE.md)
+MIT Licensed
